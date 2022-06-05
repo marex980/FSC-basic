@@ -6,7 +6,7 @@
     --clr-white: 0 0% 95%;
     --clr-gray: 345 2% 58%;
     --clr-safe: 181 100% 53%;
-    --clr-safe--shade: 181 100% 23%;
+    --clr-safe--shade: 204 100% 23%;
     --clr-cheap: 115 100% 53%;
     --clr-cheap--shade: 115 100% 23%;
     --clr-fast--secondary: 0 100% 53%;
@@ -544,8 +544,12 @@ select {
 
 .hero-nav-img {
     width: 3em;
-    /* max-height: 50px; */
+     /* max-height: 50px; */
+    
+}
 
+.hero-nav-img--safe{
+    transform: scale(1.1);
 }
 
 .arrow-img {
@@ -585,6 +589,18 @@ select {
 
 .rocket-clr-light {
     fill: hsl(var(--clr-fast--primary));
+}
+
+/*   lock safe color   */
+
+.left-darker,
+.dark-part-ring{
+    fill: hsl(var(--clr-safe--shade)) ;
+}
+
+.right-lighter,
+.light-part-ring {
+    fill: hsl(var(--clr-safe));
 }
 
 
