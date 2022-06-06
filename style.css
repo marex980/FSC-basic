@@ -467,12 +467,12 @@ select {
     grid-area: ml;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .img-logo {
-    overflow: visible;
-    max-width: 10em;
-    height: 70%;
+    margin-block: auto;
+    width: 10em;
 }
 
 .header-bold {
@@ -764,16 +764,17 @@ select {
     .main-left {
         padding-top: .5em;
     }
+	
+    .img-logo {
+	align-items: center;
+     }
 
     .main-left--content {
         padding-inline: 0;
 
     }
 	
-    .img-logo {
-	max-width: 15em;
-	padding-top: 3em;
-     }
+
 
     .main-right {
         height: 100%;
