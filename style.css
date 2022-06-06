@@ -764,7 +764,7 @@ select {
     }
 
     .main-left {
-	align-items: left;
+	align-items: flex-start;
         padding-top: .5em;
     }
 	
