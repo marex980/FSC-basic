@@ -769,6 +769,11 @@ select {
         padding-inline: 0;
 
     }
+	
+    .img-logo {
+	max-width: 15em;
+	padding-top: 3em;
+     }
 
     .main-right {
         height: 100%;
