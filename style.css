@@ -471,7 +471,8 @@ select {
 }
 
 .img-logo {
-    margin-block: auto;
+    margin-top: 3em;
+    margin-left: -3em;
     width: 10em;
 }
 
@@ -669,12 +670,13 @@ select {
         min-width: 100%;
         /*	border: 1px solid red; */
     }
-
+/*
     .img-logo {
         overflow: visible;
         max-width: 10em;
         height: 70%;
     }
+	*/
 
     .header-bold {
         letter-spacing: -.08em;
@@ -762,11 +764,12 @@ select {
     }
 
     .main-left {
+	align-items: left;
         padding-top: .5em;
     }
 	
     .img-logo {
-	align-items: center;
+	margin-left: 0;
      }
 
     .main-left--content {
