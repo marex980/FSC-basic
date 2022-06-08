@@ -626,20 +626,28 @@ select {
 
 .card,
 .hero-nav-img,
-.rocket {
+.rocket,
+.padlock {
     transition: all .5s ease-in-out;
 }
 
-.card:hover .hero-nav-img {
-    transform: rotate(90deg);
-    transform-origin: 40% 40%;
+.padlock {
+    transform-style: preserve-3d;
+}
 
+.card:hover .img-icon {
+    fill-opacity: 1;
+    stroke-width: 0;
+    transform-origin: 40% 40%;
 }
 
 .card:hover .rocket {
-    fill-opacity: 1;
-    stroke-width: 0;
-    filter: drop-shadow(-5px -15px 15px rgba(222, 222, 222, 0.4)) blur(0);
+    transform: rotate(90deg);
+  
+}
+
+.card:hover .padlock {
+    transform: rotateY(180deg);
 }
 
 .card:hover {
