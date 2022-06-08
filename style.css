@@ -585,18 +585,22 @@ select {
 
 }
 
-.menu-heading {}
-
 .card-fast {
     --bd-clr: hsl(var(--clr-fast--primary));
+	  -webkit-animation-delay: .5s;
+  	animation-delay: .5s; 
 }
 
 .card-safe {
     --bd-clr: hsl(var(--clr-safe));
+	  -webkit-animation-delay: 1s;
+  	animation-delay: 1s;
 }
 
 .card-cheap {
     --bd-clr: hsl(var(--clr-cheap));
+		-webkit-animation-delay: 1.5s;
+		animation-delay: 1.5s; 
 }
 
 .menu-heading--bottom {
