@@ -629,6 +629,8 @@ select {
 
 .main-right--description {
     display: none;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s; 
 }
 
 /*  arrows color */
