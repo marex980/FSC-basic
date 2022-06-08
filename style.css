@@ -656,7 +656,7 @@ select {
     fill: hsl(var(--clr-fast--primary));
 }
 
-/*   lock safe color   */
+/*   padlock color   */
 
 .left-darker,
 .dark-part-ring{
