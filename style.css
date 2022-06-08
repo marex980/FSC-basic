@@ -607,9 +607,8 @@ select {
 
 .img-icon {
     stroke: hsl(var(--clr-gray));
-    stroke-width: 4;
+    stroke-width: 5;
     fill-opacity: 0;
-    filter: blur(1px);
     max-width: 3em;
     /* max-width: 80%; */
     height: 100%;
