@@ -672,12 +672,11 @@ select {
 .scissor-blade-light{
 	fill: hsl(var(--clr-light));
 }
-.scissor-blade-dark{
+.scissor-blade-dark, 
+.scissor-holder{
 	fill: hsl(var(--clr-gray));
 }
-.scissor-holder{
-	fill: hsl(var(--clr-cheap));
-}
+
 .scissor-dollar{
 	fill: hsl(var(--clr-cheap--shade));
 }
