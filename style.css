@@ -676,7 +676,7 @@ select {
 	fill: hsl(var(--clr-gray));
 }
 .scissor-holder{
-	fill: hsl(var(--clr-gray));
+	fill: hsl(var(--clr-cheap));
 }
 .scissor-dollar{
 	fill: hsl(var(--clr-cheap--shade));
