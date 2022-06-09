@@ -1080,7 +1080,7 @@ select {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
-        padding-bottom: 1em;
+        padding-left: 1em;
         -webkit-transform: skew(25deg);
             -ms-transform: skew(25deg);
                 transform: skew(25deg);
