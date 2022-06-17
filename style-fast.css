@@ -464,7 +464,12 @@ select {
 /* primary-header */
 
 .logo {
-    margin: 1.5rem clamp(1.5rem, 5vw, 3.5rem);
+  /*  margin: 1.5rem clamp(1.5rem, 5vw, 3.5rem);*/
+
+    margin-top: 3em;
+    margin-left: -3em;
+    width: 10em;
+
 }
 
 
