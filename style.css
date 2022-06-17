@@ -108,7 +108,7 @@ li {
 }
 
 /* set up the body */
-body {
+.home {
     font-family: var(--ff-sans-normal);
     font-size: var(--fs-400);
     background-color: hsl(var(--clr-dark));
@@ -130,7 +130,7 @@ body {
 
 /**** ANIMATE BODY BACKGROUND ON HOVER *****/
 
-body::after {
+.home::after {
     content: '';
     display: block;
     position: absolute;
@@ -146,7 +146,7 @@ body::after {
     pointer-events: none;
 }
 
-body:hover::after {
+.home:hover::after {
     opacity: 1;
     pointer-events: none;
 
@@ -557,7 +557,7 @@ select {
     /* border: 1px solid red; */
 }
 
-.card {
+.home-card {
     /*	min-height: 100%; */
     padding-inline: 1em;
     -webkit-box-pack: justify;
@@ -710,7 +710,7 @@ select {
 
 /*   rocket animation   */
 
-.card,
+.home-card,
 .hero-nav-img,
 .rocket,
 .padlock,
@@ -729,7 +729,7 @@ select {
 
 
 
-.card:hover .img-icon {
+.home-card:hover .img-icon {
     fill-opacity: 1;
     stroke-width: 0;
 		-webkit-transform-origin: 40% 40%;
@@ -739,7 +739,7 @@ select {
 }
 
 
-.card:hover .rocket {
+.home-card:hover .rocket {
    	-webkit-transform: rotate(90deg);
    	    -ms-transform: rotate(90deg);
    	        transform: rotate(90deg);
@@ -748,12 +748,12 @@ select {
 
 
 
-.card:hover .padlock {
+.home-card:hover .padlock {
 	-webkit-transform: rotateY(180deg);
 	        transform: rotateY(180deg);
 }
 
-.card:hover .scissors {
+.home-card:hover .scissors {
 	-webkit-transform: scale(1.2);
 	    -ms-transform: scale(1.2);
 	        transform: scale(1.2);
@@ -768,7 +768,7 @@ select {
 
 
 
-.card:hover {
+.home-card:hover {
     background-size: 5px 0%,
         5px 100%,
         100% 5px;
@@ -892,7 +892,7 @@ select {
             padding: 0em;
         }
 
-        .card {
+        .home-card {
             padding-inline: 2em 1em;
 
             -o-border-image: -o-linear-gradient(top,
@@ -955,13 +955,13 @@ select {
 
 @media (min-width: 765px) and (min-height: 700px) {
 
-    body {
+    .home {
         background: conic-gradient(from -25deg at top 70% left 61.1vw,
                 hsl(var(--clr-dark)) 0%,
                 hsl(var(--clr-light)) 100%), no-repeat;
     }
 
-    body::after {
+    .home::after {
         background: conic-gradient(from -25deg at top 70% left 61.1vw,
                 hsl(var(--clr-dark)) 49%,
                 hsl(var(--clr-light)) 100%), no-repeat;
@@ -1021,7 +1021,7 @@ select {
         /* border: 1px solid red; */
     }
 
-    .card {
+    .home-card {
         -o-border-image: -o-linear-gradient(top,
                 hsl(var(--clr-dark) / .05) 1%,
                 var(--bg-clr, hsl(var(--clr-light))) 50%,
