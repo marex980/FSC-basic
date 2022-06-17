@@ -678,8 +678,8 @@ select {
   margin: 5em auto;
   max-width: 600px;
   padding: 0 1em;
-  background: hsl(var(--clr-light));
-  color: hsl(var(--clr-dark));
+  background: hsl(var(--clr-dark) / .5);
+  color: hsl(var(--clr-light));
   border: 1px solid hsl(var(--clr-fast--secondary--shade));
   border-radius: 25px;
   box-shadow: 20px 30px 80px -30px hsl(var(--clr-dark));
