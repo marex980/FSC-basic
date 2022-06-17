@@ -472,12 +472,15 @@ select {
 
 
 @media (min-width: 45em) {
+	margin-top: 0;
 	margin-left: 2em;
     	width: 65em;
 }
 
 @media (min-width: 900px){
-	width: 20em;
+	margin-top: 0;
+	margin-left: 0;
+	width: 23em;
 }
 
 
