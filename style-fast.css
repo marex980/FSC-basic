@@ -31,7 +31,7 @@
   --ff-serif: 'Cormorant', serif;
   --ff-sans: 'Karla', sans-serif;
 }
-
+/*
 @media (min-width: 35em) {
     :root {
         --fs-800: 5rem;
@@ -41,8 +41,9 @@
         --fs-400: 1rem;
     }
 }
+*/
 
-@media (min-width: 45em) {
+@media (min-width: 900px) {
     :root {
         /* font-sizes */
         --fs-800: 6.25rem;
@@ -470,13 +471,14 @@ select {
     	width: 8em;
 }
 
-
+/*
 @media (min-width: 45em) {
 	.logo {
 		margin-top: 0;
 		width: 65em;
 	}
 }
+*/
 
 @media (min-width: 900px){
 	.logo {
@@ -515,7 +517,7 @@ select {
 .mobile-nav-toggle {
     display: none;
 }
-
+/*
 @media (max-width: 35rem) {
     .layout-navigation {
         --underline-gap: .5rem;
@@ -575,8 +577,8 @@ select {
         display: none;
     }
 }
-
-@media (min-width: 45em) {
+*/
+@media (min-width: 900px) {
     
      .layout-header::after {
          content: '';
@@ -647,7 +649,7 @@ select {
 
    
 
-@media (min-width: 45em) {
+@media (min-width: 900px) {
     .grid-container {
         text-align: left;
         column-gap: var(--container-gap, 2rem);
@@ -848,7 +850,7 @@ select {
     z-index: -1;
 }
 
-@media (min-width: 45em) {
+@media (min-width: 900px) {
 	.page-decoration{
 		  top: -1em;
 			right: -1em;
