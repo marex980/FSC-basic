@@ -465,7 +465,7 @@ select {
 
 .logo {
   /*  margin: 1.5rem clamp(1.5rem, 5vw, 3.5rem);*/
-	margin-top: 3em;
+	margin-block: 3em;
     	margin-left: 2em;
     	width: 8em;
 }
@@ -474,15 +474,13 @@ select {
 @media (min-width: 45em) {
 	.logo {
 		margin-top: 0;
-		margin-left: 2em;
 		width: 65em;
 	}
 }
 
 @media (min-width: 900px){
 	.logo {
-		margin-top: 0;
-		margin-left: 0;
+		margin: 0;
 		width: 23em;
 	}
 }
