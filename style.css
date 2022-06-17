@@ -108,6 +108,7 @@ li {
 }
 
 /* set up the body */
+/*    HOME     */
 .home {
     font-family: var(--ff-sans-normal);
     font-size: var(--fs-400);
@@ -150,6 +151,19 @@ li {
     opacity: 1;
     pointer-events: none;
 
+}
+
+/*    LAYOUT BODY      */
+
+.fast{
+	font-family: var(--ff-sans);
+	font-size: var(--fs-400);
+        color: hsl(var(--clr-light));
+        background-color: hsl(var(--clr-dark));
+        line-height: 1.5;
+	display: grid;
+        grid-template-rows: min-content 1fr;
+        overflow-x: hidden;
 }
 
 
