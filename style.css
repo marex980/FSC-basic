@@ -454,11 +454,12 @@ select {
 .main {
     text-align: center;
     margin-inline: auto;
+    grid-template-rows: 1.5fr 1fr 2fr;
     height: 100vh; 
-		grid-template-areas:
-				"ml"
-				"mlc"
-				"mr";
+    grid-template-areas:
+	"ml"
+	"mlc"
+	"mr";
 
 }
 
@@ -664,16 +665,18 @@ select {
       /* TABLET VERSION */
       @media only screen and (min-width: 768px) {
 					.main {
-						  margin-left: 2em;
-							text-align: left;
-						  grid-template-areas:
-									"ml mr"
-  								"mlc mr";
+					  margin-left: 2em;
+					  text-align: left;
+					  grid-template-rows: 1.5fr 1fr;
+					  grid-template-columns: 1fr 1fr;
+					  grid-template-areas:
+						"ml mr"
+						"mlc mr";
 					}
 
 					.main-left {
-							justify-content: space-between;
-							align-items: flex-start;
+						justify-content: space-between;
+						align-items: flex-start;
 					}
 
 					.img-logo {
