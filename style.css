@@ -707,6 +707,11 @@ select {
 					.primary-navigation {
 						  height: 98%;
 					}
+					.rocket,
+					.padlock,
+					.scissors {
+					  margin-left: 1em;
+				}
 
 		 }
 			
@@ -816,6 +821,11 @@ select {
         justify-content: space-around;
         align-items: center;
     }
+	.rocket,
+	.padlock,
+	.scissors {
+             margin-left: 0em;
+				}
 		
 }
 		
