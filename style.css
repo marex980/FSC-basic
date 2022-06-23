@@ -747,7 +747,9 @@ select {
     .main-left {
         padding-top: .5em;
     }
-	
+	.main-left--content {
+		margin-block: auto;
+	}
 	
     .main-right {
       height: 100%;
