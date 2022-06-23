@@ -485,7 +485,7 @@ select {
 .main-left--content {
     grid-area: mlc;
     margin-block: auto;
-    padding-inline: 1em;
+    padding-bottom: 1em;
 }
 
 .main-right {
