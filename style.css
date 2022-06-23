@@ -466,15 +466,15 @@ select {
 .main-left {
     grid-area: ml;
 		flex-direction: column;
-		justify-content: space-between;
+		justify-content: space-around;
 		align-items: center;
 
 }
 
 .img-logo {
-    margin-top: 2em;
+    margin-top: 1em;
     margin-left: -3em;
-    width: 10em;
+    width: clamp(7rem, 15vw + 2rem, 10rem);
 
 }
 
