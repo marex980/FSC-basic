@@ -701,6 +701,7 @@ select {
 									}
 									
 					.main-right > nav {
+						height: 100%;
 							width: 100%;
 					}
 
