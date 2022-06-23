@@ -748,6 +748,7 @@ select {
         padding-top: .5em;
     }
 	.main-left--content {
+		padding-bottom: 0em;
 		margin-block: auto;
 	}
 	
