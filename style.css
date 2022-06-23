@@ -472,7 +472,7 @@ select {
 }
 
 .img-logo {
-    margin-top: 3em;
+    margin-top: 2em;
     margin-left: -3em;
     width: 10em;
 
@@ -509,7 +509,7 @@ select {
     padding-inline: 1em;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1em;
+    border-bottom: .5em;
     border-style: solid;
     border-image: linear-gradient(to left,
             hsl(var(--clr-dark)) 1%,
