@@ -781,11 +781,14 @@ select {
 
 
     .main-right--description {
+        grid-area: mrd;
         display: flex;
 	align-items: center;
+	padding-top: 1em;
+	
 	transform: skew(25deg);
 	transform-origin: 0% 20%;
-        grid-area: mrd;
+
         font-size: calc(1.5vw + 1rem);
 	width: 75%;
 	height: 90%;
