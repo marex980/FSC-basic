@@ -66,6 +66,7 @@ picture,
 ul,
 li {
     margin: 0;
+    padding: 0;
 }
 
 h1,
@@ -781,14 +782,13 @@ select {
 
     .main-right--description {
         display: flex;
+	align-items: center;
+	transform: skew(25deg);
+	transform-origin: 0% 20%;
         grid-area: mrd;
-        align-items: center;
-        padding-left: 1em;
-			  transform: skew(25deg);
-		  	transform-origin: top;
         font-size: calc(1.5vw + 1rem);
-        width: 70%;
-        height: 90%;
+	width: 75%;
+	height: 90%;
     }
 		
 		
