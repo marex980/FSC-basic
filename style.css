@@ -747,9 +747,10 @@ select {
     .main-left {
         padding-top: .5em;
     }
+	      
 	.main-left--content {
 		padding-bottom: 0em;
-		margin-block: auto;
+		margin-block: auto .3em;
 	}
 	
     .main-right {
