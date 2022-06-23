@@ -685,7 +685,7 @@ select {
 					}
 
 				.main-left--content {
-						padding-inline: 0; 
+						padding: 0; 
 						margin-block: auto 10%;
 				}
      
