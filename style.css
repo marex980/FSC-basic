@@ -454,7 +454,7 @@ select {
 .main {
     text-align: center;
     margin-inline: auto;
-    grid-template-rows: 1.1fr .7fr 1.2fr;
+    grid-template-rows: 1.2fr .3fr 1.5fr;
     height: 100vh; 
     grid-template-areas:
 	"ml"
