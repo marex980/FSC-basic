@@ -299,49 +299,33 @@ select {
     color: hsl(var(--clr-safe));
 }
 
-;
-
 .text-safe--shade {
     color: hsl(var(--clr-safe-shade));
 }
-
-;
 
 .text-cheap {
     color: hsl(var(--clr-cheap));
 }
 
-;
-
 .text-cheap-shade {
     color: hsl(var(--clr-cheap--shade));
 }
-
-;
 
 .text-fast--primary {
     color: hsl(var(--clr-fast--primary));
 }
 
-;
-
 .text-fast--primary--shade {
     color: hsl(var(--clr-fast--primary--shade));
 }
-
-;
 
 .text-fast--secondary {
     color: hsl(var(--clr-fast--secondary));
 }
 
-;
-
 .text-fast--secondary--shade {
     color: hsl(var(--clr-fast--secondary--shade));
 }
-
-;
 
 /* typography */
 
@@ -356,7 +340,6 @@ select {
 .ff-sans {
     font-family: var(--ff-sans);
 }
-
 
 .letter-spacing-1 {
     letter-spacing: 4.75px;
@@ -798,6 +781,11 @@ select {
 
 	width: 95%;
       }
+	      
+   .right-description-main{
+		line-height: 1.7em;
+		
+	}
 	      
 	.article-description > li {
 		margin-left: 1em;
