@@ -780,9 +780,10 @@ select {
 	transform-origin: 0% 20%;
 
 	width: 95%;
+	pointer-events: auto;
       }
 	      
-   .right-description-main{
+   .right-description-info{
 		line-height: 1.6em;
 		font-size: clamp(1.8rem, 2.2vw + 1rem, 3rem);
 		
