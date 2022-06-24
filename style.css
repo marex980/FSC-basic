@@ -738,7 +738,7 @@ select {
 
     .main {
         grid-template-columns: 61.5% 37.5%; 
-        grid-template-rows: 70% 28%;
+        grid-template-rows: 70% 29.8%;
             grid-template-areas:
             "ml mr"
             "mlc mrd";
@@ -796,9 +796,8 @@ select {
 	transform: skew(25deg);
 	transform-origin: 0% 20%;
 
-/*	width: 75%;
-	height: 90%;*/
-    }
+	width: 95%;
+      }
 	      
 	.article-description > li {
 		margin-left: 1em;
