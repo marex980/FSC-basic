@@ -783,7 +783,8 @@ select {
       }
 	      
    .right-description-main{
-		line-height: 1.7em;
+		line-height: 1.6em;
+		font-size: clamp(1.8rem, 2.2vw + 1rem, 3rem);
 		
 	}
 	      
