@@ -792,6 +792,12 @@ select {
 		margin-left: 1em;
 		list-style: disc;
 	}
+	      
+	.article-description > a {
+		display: block;
+		text-align: center;
+		text-decoration: underline;
+	}
 
 		
     .card-fast,
