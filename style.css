@@ -670,7 +670,7 @@ select {
 					  margin-left: 2em;
 					  text-align: left;
 					  grid-template-rows: 1.5fr 1fr;
-					  grid-template-columns: 1fr 1fr;
+					  grid-template-columns: 2fr 1fr;
 					  grid-template-areas:
 						"ml mr"
 						"mlc mr";
