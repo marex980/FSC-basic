@@ -738,7 +738,7 @@ select {
 
     .main {
         grid-template-columns: 61.5% 37.5%; 
-        grid-template-rows: 70% 29.8%;
+        grid-template-rows: 70% 29.5%;
             grid-template-areas:
             "ml mr"
             "mlc mrd";
@@ -751,7 +751,7 @@ select {
     }
 	      
 	.main-left--content {
-		padding-bottom: 0em;
+		padding-bottom: 1em;
 		margin-block: auto .3em;
 	}
 	
