@@ -95,7 +95,7 @@ li {
     font-family: var(--ff-sans-normal);
     font-size: var(--fs-400);
     background-color: hsl(var(--clr-light));
-	  height: 100vh;
+	 /* height: 100vh; */
     position: relative;
     z-index: 100;
     pointer-events: none;
@@ -299,33 +299,48 @@ select {
     color: hsl(var(--clr-safe));
 }
 
+;
+
 .text-safe--shade {
     color: hsl(var(--clr-safe-shade));
 }
+
 
 .text-cheap {
     color: hsl(var(--clr-cheap));
 }
 
+
+
 .text-cheap-shade {
     color: hsl(var(--clr-cheap--shade));
 }
+
+
 
 .text-fast--primary {
     color: hsl(var(--clr-fast--primary));
 }
 
+
+
 .text-fast--primary--shade {
     color: hsl(var(--clr-fast--primary--shade));
 }
+
+
 
 .text-fast--secondary {
     color: hsl(var(--clr-fast--secondary));
 }
 
+
+
 .text-fast--secondary--shade {
     color: hsl(var(--clr-fast--secondary--shade));
 }
+
+
 
 /* typography */
 
@@ -340,6 +355,7 @@ select {
 .ff-sans {
     font-family: var(--ff-sans);
 }
+
 
 .letter-spacing-1 {
     letter-spacing: 4.75px;
@@ -438,8 +454,8 @@ select {
 .main {
     text-align: center;
     margin-inline: auto;
+		min-height: 100vh;
     grid-template-rows: 1.2fr .3fr 1.5fr;
-    height: 100vh; 
     overflow-x: hidden;
     grid-template-areas:
 	"ml"
@@ -649,11 +665,16 @@ select {
 
       /* TABLET VERSION */
       @media only screen and (min-width: 768px) and (max-height: 500px) {
+				.home{
+											max-width: 98vw;
+						max-height: 80vh;
+				}	
+					
 					.main {
-					  margin-left: 2em;
+					  margin-left: 1em;
 					  text-align: left;
-					  grid-template-rows: 1.5fr 1fr;
-					  grid-template-columns: 2fr 1fr;
+					  grid-template-rows: 2fr 1fr;
+					  grid-template-columns: 1fr 1fr;
 					  grid-template-areas:
 						"ml mr"
 						"mlc mr";
@@ -670,13 +691,14 @@ select {
 
 				.main-left--content {
 						padding: 0; 
-						margin-block: auto 10%;
+						margin-block: auto 5%;
 				}
      
 		         .primary-navigation {
             writing-mode: vertical-lr;
             padding: 0em;
-					  height: 98%;
+					  height: 100%;
+						width: 100%;
         }
 
 					.home-card {
@@ -700,9 +722,10 @@ select {
 		 }
 		 
 		  @media only screen and (min-width: 980px) and (max-height: 500px) {
+		  
 					.main {
 					  grid-template-columns: 1fr 1fr;
-						max-height: 500px;
+
 						}
 }
 			
@@ -728,6 +751,7 @@ select {
     .main {
 			  margin-left: 2em;
 			  text-align: left;
+				 height: 100vh; 
         grid-template-columns: 61.5% 37.5%; 
         grid-template-rows: 70% 29.5%;
             grid-template-areas:
