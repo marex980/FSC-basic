@@ -826,6 +826,7 @@ select {
         grid-area: mrd;
         display: flex;
 	align-items: center;
+        justify-content: center;
 	padding-right: 2em;
 	
 	transform: skew(25deg);
