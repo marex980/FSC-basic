@@ -785,7 +785,7 @@ select {
       }
 	      
    .right-description-info{
-		line-height: 1.6em;
+		line-height: 1.2em;
 		font-size: clamp(1.8rem, 2.2vw + 1rem, 3rem);
 		
 	}
@@ -864,6 +864,9 @@ select {
         width: 3em;
         margin-left: 0;
     }
+    .right-description-info{
+	line-height: 1.6em;
+}
 }
 	
 	/*******    FAST   *********/
