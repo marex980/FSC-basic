@@ -26,6 +26,8 @@
   --fs-400: 1rem;
   --fs-300: 0.8rem;
   --fs-200: 0.8rem;
+	
+
 
 
   /* font-families */
@@ -33,7 +35,12 @@
   --ff-sans: 'Karla', sans-serif;
 }
 
-
+@media (max-width: 900px) {
+    :root {
+        --fs-900: clamp(4rem, 8vw + 1rem, 9.375rem);
+				/* --fs-900: 2rem; */
+    }
+}
 
 /* ------------------- */
 /* Reset               */
@@ -665,7 +672,7 @@ select {
   width: 100%;
   margin: auto;
   padding-left: 5%;
-  padding-right: 5%;
+  padding-right: 5%; 
   align-items: center;
   margin-bottom: 3em;
   position: relative;
