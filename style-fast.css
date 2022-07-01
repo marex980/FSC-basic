@@ -443,7 +443,7 @@ select {
 
 @media (min-width: 900px) {
   .logo {
-    margin-top: 0;
+    margin-block: auto;
     margin-left: 0;
     width: 23em;
   }
@@ -583,7 +583,7 @@ select {
     margin-block: 0;
 		background: hsl(var(--clr-white) / 0);
 		backdrop-filter: blur(0);
- 	  transition: margin-block .2s ease, background .1s ease, backdrop-filter .1s ease;
+ 	  transition: margin-block .2s ease, background 0s ease, backdrop-filter 0s ease;
   }
 
 }
