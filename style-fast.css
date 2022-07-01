@@ -455,9 +455,11 @@ select {
     transform: translateX(0);
   }
 
+	/*
   .layout-navigation.underline-indicators>.active {
     border: 0;
   }
+	*/
 
   .mobile-nav-toggle {
     display: block;
