@@ -395,15 +395,13 @@ select {
 .logo {
   margin-block: 3em;
   margin-left: 2em;
-  width: 150px;
+  width: 450px;
 }
 
 
 @media (min-width: 900px) {
   .logo {
     margin-block: auto;
-    margin-left: 0;
- /*   min-width: 23em; */
   }
 }
 
