@@ -635,7 +635,7 @@ select {
     --gap: 1em;
     max-width: 1120px;
     padding-inline: 1em;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(2, 1fr);
     margin-bottom: 7em;
   }
 
