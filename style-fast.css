@@ -395,7 +395,7 @@ select {
 .logo {
   margin-block: 3em;
   margin-left: 2em;
-  width: 8em;
+  min-width: 8em;
 }
 
 
@@ -403,7 +403,7 @@ select {
   .logo {
     margin-block: auto;
     margin-left: 0;
-    width: 23em;
+    min-width: 23em;
   }
 }
 
