@@ -18,7 +18,7 @@
   --clr-fast--primary--shade: 51 100% 23%;
 
   /* font-sizes */
-  --fs-900: clamp(5.653rem, 8vw + 1rem, 6.375rem);
+  --fs-900: clamp(5.653rem, 5vw + 3rem, 6.5rem);
   --fs-800: 3.998rem;
   --fs-700: 2.827rem;
   --fs-600: 1.999rem;
@@ -37,7 +37,7 @@
 
 @media (max-width: 900px) {
     :root {
-        --fs-900: clamp(4rem, 8vw + 1rem, 9.375rem);
+        --fs-900: clamp(4rem, 5vw + 3rem, 5.8125rem);
     }
 }
 
@@ -597,7 +597,7 @@ select {
   padding-left: 5%;
   padding-right: 5%; 
   align-items: center;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
   position: relative;
 }
 
@@ -636,7 +636,7 @@ select {
     max-width: 1120px;
     padding-inline: 1em;
     grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 7em;
+    margin-bottom: 2em;
   }
 
   .container-image {
@@ -655,7 +655,7 @@ select {
 .container-cards {
   --gap: 1rem;
   margin: auto auto 30px;
-  padding-block: 4em;
+  padding-block: 2em 4em;
 }
 
 
@@ -709,8 +709,8 @@ select {
   display: block;
   width: clamp(10vh, 20vh, 100%);
   aspect-ratio: 1;
-  right: 0;
-  top: 0;
+  right: 1%;
+  top: 10%;
   background-image: linear-gradient(112.49deg, hsl(var(--clr-fast--secondary--shade)) 30.05%, hsl(var(--clr-fast--primary)) 89.89%);
 }
 
@@ -738,7 +738,7 @@ select {
 .decoration-left {
   width: 200px;
   height: 200px;
-  top: 20%;
+  top: 23%;
   left: -11%;
   background-image: linear-gradient(112.49deg, #12c2e9 1.05%, #c471ed 54.08%, #f64f59 99.89%);
   transform: rotate(-180deg);
@@ -748,15 +748,15 @@ select {
   width: 170px;
   height: 170px;
   right: 1%;
-  top: 37%;
+  top: 50%;
   background-image: linear-gradient(112.49deg, red 1.05%, blue 99.89%);
 }
 
 .decoration-right {
   width: 150px;
   height: 150px;
-  right: 40%;
-  top: 80%;
+  right: 30%;
+  top: 85%;
   background: linear-gradient(112.49deg, #f0c 1.05%, #339 99.89%);
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
