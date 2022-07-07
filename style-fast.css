@@ -54,7 +54,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  /* outline: 1px solid yellow; */
+  outline: 1px solid yellow; 
 }
 
 /* Reset margins */
