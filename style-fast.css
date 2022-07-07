@@ -905,3 +905,35 @@ select {
 }
 
 /*    END      */
+
+
+/*   Animations  */
+
+.slide-in-left {
+	opacity: 0;
+	animation: slide-in-left 1s ease-in-out forwards ;
+}
+
+.animation-delay-1{
+	animation-delay: 0.5s;
+}
+
+.animation-delay-2{
+	animation-delay: 1s;
+}
+
+.animation-delay-3{
+	animation-delay: 1.5s;
+}
+
+@keyframes slide-in-left {
+  0% {
+  	display: block;
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
