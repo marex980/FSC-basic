@@ -949,7 +949,6 @@ select {
 
 @keyframes slide-in-left {
   0% {
-  	display: block;
     transform: translateX(-1000px);
     opacity: 0;
   }
